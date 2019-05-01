@@ -52,8 +52,6 @@ include_directories(${CMAKE_SOURCE_DIR}/core/cmsis
                     ${CMAKE_SOURCE_DIR}/core/device
                     ${CMAKE_SOURCE_DIR}/driver/bsp
                     ${CMAKE_SOURCE_DIR}/driver/hal
-                    ${CMAKE_SOURCE_DIR}/middleware/freertos/include
-                    ${CMAKE_SOURCE_DIR}/middleware/freertos/portable
                     ${CMAKE_SOURCE_DIR}/middleware/ucos/config
                     ${CMAKE_SOURCE_DIR}/middleware/ucos/core
                     ${CMAKE_SOURCE_DIR}/middleware/ucos/core/port
